@@ -1,0 +1,21 @@
+platform :ios, '14.0'
+
+target 'RxSwiftAsXCFrameworkCocoapodsExample' do
+  use_frameworks!
+
+  pod 'RxSwift', :podspec => './RxSwiftSpecs/RxSwift.podspec'
+  pod 'RxCocoa', :podspec => './RxSwiftSpecs/RxCocoa.podspec'
+  pod 'RxRelay', :podspec => './RxSwiftSpecs/RxRelay.podspec'
+  
+  # The project won't use RxCocoaRuntime directly.
+  # But because RxCocoa depends on RxCocoaRuntime, I need to indicate where the podspec is located
+  pod 'RxCocoaRuntime', :podspec => './RxSwiftSpecs/RxCocoaRuntime.podspec'
+
+  target 'RxSwiftAsXCFrameworkCocoapodsExampleTests' do
+    inherit! :search_paths
+    
+    pod 'RxTest', :podspec => './RxSwiftSpecs/RxTest.podspec'
+    pod 'RxBlocking', :podspec => './RxSwiftSpecs/RxBlocking.podspec'
+  
+  end
+end

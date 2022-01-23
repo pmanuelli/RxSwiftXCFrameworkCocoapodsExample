@@ -1,0 +1,48 @@
+PODS:
+  - RxBlocking (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+  - RxCocoa (6.5.0-xcframework):
+    - RxCocoaRuntime (= 6.5.0-xcframework)
+    - RxRelay (= 6.5.0-xcframework)
+    - RxSwift (= 6.5.0-xcframework)
+  - RxCocoaRuntime (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+  - RxRelay (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+  - RxSwift (6.5.0-xcframework)
+  - RxTest (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+
+DEPENDENCIES:
+  - RxBlocking (from `./RxSwiftSpecs/RxBlocking.podspec`)
+  - RxCocoa (from `./RxSwiftSpecs/RxCocoa.podspec`)
+  - RxCocoaRuntime (from `./RxSwiftSpecs/RxCocoaRuntime.podspec`)
+  - RxRelay (from `./RxSwiftSpecs/RxRelay.podspec`)
+  - RxSwift (from `./RxSwiftSpecs/RxSwift.podspec`)
+  - RxTest (from `./RxSwiftSpecs/RxTest.podspec`)
+
+EXTERNAL SOURCES:
+  RxBlocking:
+    :podspec: "./RxSwiftSpecs/RxBlocking.podspec"
+  RxCocoa:
+    :podspec: "./RxSwiftSpecs/RxCocoa.podspec"
+  RxCocoaRuntime:
+    :podspec: "./RxSwiftSpecs/RxCocoaRuntime.podspec"
+  RxRelay:
+    :podspec: "./RxSwiftSpecs/RxRelay.podspec"
+  RxSwift:
+    :podspec: "./RxSwiftSpecs/RxSwift.podspec"
+  RxTest:
+    :podspec: "./RxSwiftSpecs/RxTest.podspec"
+
+SPEC CHECKSUMS:
+  RxBlocking: f0a908c7ee05ed871cff1a462f35afb4cfb1ef43
+  RxCocoa: 7ba3c3c2df230053cd87035e8ab77a5fe4b2cfd8
+  RxCocoaRuntime: 54f08c7f527641f0c55feb6cf0701f5da90d8dc7
+  RxRelay: e276395ea496a70a8e606b649af78e8a5666146d
+  RxSwift: 666f8053b066a16f5550d79ee31a68f28f1ade3e
+  RxTest: 337844b53855762cc93a8074d314d1d281118b20
+
+PODFILE CHECKSUM: 4c4811631df323f999f93239911007c65ddca3cb
+
+COCOAPODS: 1.11.2

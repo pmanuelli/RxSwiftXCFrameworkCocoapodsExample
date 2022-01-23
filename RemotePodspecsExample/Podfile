@@ -1,0 +1,25 @@
+source 'https://github.com/pmanuelli/RxSwiftSpecs.git'
+
+platform :ios, '14.0'
+
+target 'RxSwiftAsXCFrameworkCocoapodsExample' do
+  use_frameworks!
+
+  rx_version = '6.5.0-xcframework'
+
+  pod 'RxSwift', rx_version
+  pod 'RxCocoa', rx_version
+  pod 'RxRelay', rx_version
+  
+  # The project won't use RxCocoaRuntime directly.
+  # But because RxCocoa depends on RxCocoaRuntime, I need to indicate the xcframework version too
+  pod 'RxCocoaRuntime', rx_version
+
+  target 'RxSwiftAsXCFrameworkCocoapodsExampleTests' do
+    inherit! :search_paths
+    
+    pod 'RxTest', rx_version
+    pod 'RxBlocking', rx_version
+  
+  end
+end

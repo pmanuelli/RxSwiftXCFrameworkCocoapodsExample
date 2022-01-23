@@ -1,0 +1,43 @@
+PODS:
+  - RxBlocking (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+  - RxCocoa (6.5.0-xcframework):
+    - RxCocoaRuntime (= 6.5.0-xcframework)
+    - RxRelay (= 6.5.0-xcframework)
+    - RxSwift (= 6.5.0-xcframework)
+  - RxCocoaRuntime (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+  - RxRelay (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+  - RxSwift (6.5.0-xcframework)
+  - RxTest (6.5.0-xcframework):
+    - RxSwift (= 6.5.0-xcframework)
+
+DEPENDENCIES:
+  - RxBlocking (= 6.5.0-xcframework)
+  - RxCocoa (= 6.5.0-xcframework)
+  - RxCocoaRuntime (= 6.5.0-xcframework)
+  - RxRelay (= 6.5.0-xcframework)
+  - RxSwift (= 6.5.0-xcframework)
+  - RxTest (= 6.5.0-xcframework)
+
+SPEC REPOS:
+  https://github.com/pmanuelli/RxSwiftSpecs.git:
+    - RxBlocking
+    - RxCocoa
+    - RxCocoaRuntime
+    - RxRelay
+    - RxSwift
+    - RxTest
+
+SPEC CHECKSUMS:
+  RxBlocking: 5a910295837a33a2206933269a19f05ea1864b45
+  RxCocoa: 3aa367684e7d1a90f0583bdd3b95b76ab0dcf094
+  RxCocoaRuntime: 74168a64d568d1edf5ac3a29405d19285443607e
+  RxRelay: d447dfdae5a0b833e6dfaf62ffd897e2690f544d
+  RxSwift: ad110b26915aaa3f71fe63bf774bdc0c66b1c4f5
+  RxTest: 7e85eca968edb64e24648bbc8bec8841a8fb7373
+
+PODFILE CHECKSUM: 32ae656e16e7b624d5e017de5ab7a71dfe550e57
+
+COCOAPODS: 1.11.2
